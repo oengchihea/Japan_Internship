@@ -1,0 +1,40 @@
+{
+  "name": "iwate-dx-unified-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/supabase-js": "^2.50.3",
+    "autoprefixer": "^10.0.1",
+    "date-fns": "^2.30.0",
+    "i18next": "^25.3.1",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "lucid": "^2.21.0",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "postcss": "^8",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "react-i18next": "^15.6.0",
+    "recharts": "^2.8.0",
+    "supabase": "^2.30.4",
+    "tailwindcss": "^3.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
+  }
+}
